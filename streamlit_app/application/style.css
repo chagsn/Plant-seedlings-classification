@@ -1,0 +1,80 @@
+h1,
+h2,
+h3,
+h4 {
+  color: #faf7f7;
+}
+
+code {
+  color: #c31e1e;
+}
+
+#MainMenu {
+  display: none;
+}
+
+div[data-testid="stDecoration"] {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+/* Radio buttons */
+
+.st-cc {
+  color: black;
+  font-weight: 500;
+}
+
+/* Sidebar */
+
+
+section[data-testid="stSidebar"] > div {
+  background-color: #44a526cc;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+
+
+section[data-testid="stSidebar"] .st-bk {
+  background-color: white;
+}
+
+section[data-testid="stSidebar"] .st-c0 {
+  background-color: white;
+}
+
+section[data-testid="stSidebar"] hr {
+  margin-top: 30px;
+  border-color: white;
+  width: 50px;
+}
+
+section[data-testid="stSidebar"] h2 {
+  color: white;
+}
+
+
+/* First Page */
+
+section[tabindex="0"] .block-container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 100vw;
+}
+
+.element-container {
+  width: 800px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
