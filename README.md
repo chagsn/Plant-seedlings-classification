@@ -1,5 +1,6 @@
 # Plant seedlings classification project
 
+
 ## Presentation
 
 This repository contains the code for our project **PLANT SEEDLINGS CLASSIFICATION**, developed during our [Data Scientist training](https://datascientest.com/en/data-scientist-course) at [DataScientest](https://datascientest.com/).
@@ -12,6 +13,7 @@ It was developed by the following team :
 - Camille LE
 - Thi Tha LE ([LinkedIn](https://www.linkedin.com/in/thi-tha-le-b20b84170/))
 
+
 ## Dataset
 The dataset at the basis of the project is the Kaggle "V2 Plant Seedlings Dataset" avalaible at:  
 https://www.kaggle.com/datasets/vbookshelf/v2-plant-seedlings-dataset  
@@ -19,6 +21,7 @@ https://www.kaggle.com/datasets/vbookshelf/v2-plant-seedlings-dataset
 The previous (V1) version of this dataset was used in the Plant Seedling Classification playground competition on Kaggle.  
 
 Complementary information about the dataset  can be found in the [data](./data) folder.
+
 
 ## Code
 You can browse and run the [notebooks](./notebooks).  
@@ -42,6 +45,7 @@ conda activate my-awesome-streamlit
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
 
 ## Documentation
 All the work performed to carry out this project is fully documented in our Data Scientist certification final report, which can be shared on demand.

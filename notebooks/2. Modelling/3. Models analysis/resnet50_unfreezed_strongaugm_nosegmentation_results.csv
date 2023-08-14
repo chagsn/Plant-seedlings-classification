@@ -1,0 +1,4 @@
+,loss,accuracy
+train,0.0453,0.9838
+validation,0.109,0.9792
+test,0.1708,0.9657
