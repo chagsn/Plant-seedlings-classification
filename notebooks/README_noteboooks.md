@@ -19,7 +19,7 @@ This phase of the project was divided into three main steps:
 
 #### 3. Predictions:
 In this notebook we use the three Transfer Learning optimized models (VGG19, MobileNetV2 and ResNet50) to predict plant seedlings specie from single images. This code was used as a basis to present the results of our models in the Streamlit app. **It has to be noted that our ResNet50 model was too heavy to be uploaded on Github, so unfortunately  the parts of the notebook using this model cannot be run.**
-- The first part of the notebbok is dedicated to checking the consistency between the predictions obtained with two different pre-processing approaches: manual pre-processing on the one hand, and pre-processing using Keras ImageDataGenerator class on the other hand (this point had indeed posed some difficulties).
+- The first part of the notebook is dedicated to checking the consistency between the predictions obtained with two different pre-processing approaches: manual pre-processing on the one hand, and pre-processing using Keras ImageDataGenerator class on the other hand (this point had indeed posed some difficulties).
 - In the following section we compare the predictions obtained by MobileNet model with both segmentation techniques: thresholding-based segmentation and Deep Learning (Unet) segmentation.
 - The last part of the notebook adresses the comparison of the three models' predictions on single images: first on images randomly drawn from the dataset, then on external images found on the web.
         
